@@ -100,8 +100,14 @@ nav ul {
 .left-container h2{
     font-size: 38px;
 }
+span{
+  background: -webkit-linear-gradient(#7b48e1, #f6f2fe);
+    background: linear-gradient(to right, #7b48e1, #f6f2fe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 h1 {
-    font-size: 62px;
+    font-size: 46px;
     background: -webkit-linear-gradient(#7b48e1, #f6f2fe);
     background: linear-gradient(to right, #7b48e1, #f6f2fe);
     -webkit-background-clip: text;
