@@ -165,6 +165,10 @@ width: 30px;
     color: #fff;text-align: center;
    
 }
+.profile{
+  position: relative;
+  z-index: -1;
+}
 
 .profile>img{
     height: 492px;
@@ -352,7 +356,7 @@ position: relative;
     .phone-items{
         width: 114px;
         position: absolute;
-        background-color: rebeccapurple;
+        background-color:#3a1e70 ;
         margin-left: 57%;
         list-style: none;
         display: flex;
@@ -360,7 +364,7 @@ position: relative;
         gap: 1.5rem;
         font-size: 20px;
         border-radius: 13px;
-        top: 69px;
+        top: 32px;
         height: 38%;
         padding: 23px;
       }
