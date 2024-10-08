@@ -9,7 +9,12 @@ overflow-x: hidden;
     display:flex;
     align-items: center;
     justify-content: space-evenly;
-    height: 104px;
+    height: 74px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: -1px;
+    background-color:  #3a1e70;
 
 }
 .logo{
