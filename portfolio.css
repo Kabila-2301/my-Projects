@@ -173,6 +173,7 @@ width: 30px;
 .profile{
   position: relative;
   margin-top: 85px;
+  
 }
 
 .profile>img{
@@ -220,10 +221,11 @@ width: 30px;
 .skill-card i{
     font-size: 80px;
     color:#7d4ae6;
+    padding-top: 10px;
 
 }
 .skill-card:hover{
-    border: 1px solid #804cec;
+   
     -webkit-filter: grayscale(0%);
     background-color: #3a1e70;
 }
@@ -273,7 +275,7 @@ width: 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    z-index: -1;
+   
    
 }
 .project-body img{
@@ -299,11 +301,15 @@ position: relative;
     border-radius: 33px;
     margin-bottom: 13px;
     height: 100px;
+    display: none;
+    
     
     
 }
+.project-img-container:hover .project-content{
+  display: block;
 
-
+}
 
 
 /* this is the contact me section */
@@ -368,8 +374,9 @@ position: relative;
         font-size: 20px;
         border-radius: 13px;
         top: 32px;
-        height: 38%;
+        height: 36%;
         padding: 23px;
+        z-index: 1;
       }
       .phone-items>li>a{
         text-decoration: none;
@@ -417,7 +424,7 @@ position: relative;
     .skill-card{
       height: 183px;
       width: 144px;
-      z-index: -1;
+      /* z-index: -1; */
     }
     /* this is education and experience section for mobile screen */
     .Education-Experience{
@@ -452,6 +459,7 @@ position: relative;
   bottom:9px;
   left:19px;
   padding: 9px;
+  height: fit-content;
 }
 /* this is the contact me section for the mobile screen */
 
@@ -575,6 +583,12 @@ position: relative;
   .project-body img{
     width: 1085px;
     height: 690px;
+  }
+  .project-content{
+    height: 176px;
+    font-size: 29px;
+    width: 650px;
+    left: 205px;
   }
   /* this is the contact me section for the tablet view */
 
