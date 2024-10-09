@@ -167,7 +167,7 @@ width: 30px;
 }
 .profile{
   position: relative;
-  z-index: -1;
+  margin-top: 85px;
 }
 
 .profile>img{
@@ -268,6 +268,7 @@ width: 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    z-index: -1;
    
 }
 .project-body img{
@@ -293,13 +294,10 @@ position: relative;
     border-radius: 33px;
     margin-bottom: 13px;
     height: 100px;
-    display: none;
+    
     
 }
-.project-img-container:hover .project-content{
-  display: block;
-  
-}
+
 
 
 
@@ -355,7 +353,7 @@ position: relative;
     }
     .phone-items{
         width: 114px;
-        position: absolute;
+        position: fixed;
         background-color:#3a1e70 ;
         margin-left: 57%;
         list-style: none;
@@ -380,7 +378,7 @@ position: relative;
         flex-direction: column-reverse;
     }
     .left-container h1{
-        font-size: 34px;
+        font-size: 28px;
     }
     .left-container h2{
         font-size: 31px;
@@ -413,7 +411,8 @@ position: relative;
     }
     .skill-card{
       height: 183px;
-    width: 144px;
+      width: 144px;
+      z-index: -1;
     }
     /* this is education and experience section for mobile screen */
     .Education-Experience{
