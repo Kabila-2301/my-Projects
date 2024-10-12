@@ -445,8 +445,3 @@ nav ul {
     width: 50%;
   }
 }
-@media screen and (min-device-width: 329px) and (max-device-width: 661px){
- .navigation{
-    justify-content: space-evenly;
- }
-}
