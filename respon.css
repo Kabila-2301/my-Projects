@@ -380,7 +380,7 @@ nav ul {
         margin-left: 50%;
     }
     .hero-container{
-        padding: 76px 27px;
+        padding: 76px 19px;
         flex-direction: column-reverse;
     }
     .profile img{
@@ -392,10 +392,10 @@ nav ul {
     }
     .skill-body{
         gap: 2rem;
-        padding: 0px 9px;
+      
     }
     .skill-card{
-        
+        width: 100px;
         padding-top: 29px;
     }
     .card{
