@@ -154,7 +154,7 @@ nav ul {
 .download-btn{
     color: white;
     height: 50px;
-    width: 194px;
+    width: 172px;
     border: 1px solid #834df0;
     border-radius: 28px;
     background-color: black;
@@ -326,7 +326,7 @@ nav ul {
     }
     .phone-items{
         top: 13px;
-        margin-left: 68%;
+        margin-left: 46%;
     }
     .hero-container{
         /* flex-direction: column-reverse; */
@@ -335,6 +335,7 @@ nav ul {
     .profile img{
         height: 450px;
         width: 409px;
+        margin-right: 18px;
     }
     .skill-body{
         gap: 4rem;
@@ -391,7 +392,7 @@ nav ul {
         gap: 1rem;
     }
     .skill-body{
-        gap: 2rem;
+       padding-left: 40px;
       
     }
     .skill-card{
@@ -400,21 +401,28 @@ nav ul {
         height: 112px;
     }
     .card{
-        height: 253px;
-        width: 371px;
+        height: 190px;
+        width: 364px;
+        font-size: 13px;
+        margin-left: 57px;
     }
     .Education-Experience{
         flex-wrap: wrap;
     }
+    .Exp h1{
+        margin-left: 55px;
+    }
     .project-img-container img{
-        height: 350px;
-        width: 350px;
+        height: 324px;
+        width: 314px;
+        margin-left: 20px;
     }
     .project-content{
-        width: 318px;
+        width: 302px;
         padding: initial;
         bottom: 16px;
         height: fit-content;
+        left: 10px;
     }
     .contact-me-container{
         padding: 0px 30px;
