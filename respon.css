@@ -429,3 +429,24 @@ nav ul {
         padding: 0px 30px;
     }
 }
+@media screen and (min-device-width: 662px) and (max-device-width: 812px) { 
+    .navigation{
+        /* background-color: red; */
+        justify-content: space-evenly;
+    }
+  .phone-items{
+    margin-left: 66%;
+  }
+  .skill-body{
+    padding-left: 84px;
+  }
+  .Education-Experience{
+    margin: 0px 153px;
+    width: 50%;
+  }
+}
+@media screen and (min-device-width: 329px) and (max-device-width: 661px){
+ .navigation{
+    justify-content: space-evenly;
+ }
+}
