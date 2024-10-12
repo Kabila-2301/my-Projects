@@ -376,6 +376,9 @@ nav ul {
         font-size: 15px;
 
     }
+    .left-container p{
+        width: 87%;
+    }
     .phone-items{
         top: 35px;
         margin-left: 43%;
