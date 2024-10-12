@@ -154,7 +154,7 @@ nav ul {
 .download-btn{
     color: white;
     height: 50px;
-    width: 172px;
+    width: 160px;
     border: 1px solid #834df0;
     border-radius: 28px;
     background-color: black;
@@ -326,7 +326,7 @@ nav ul {
     }
     .phone-items{
         top: 13px;
-        margin-left: 46%;
+        margin-left: 68%;
     }
     .hero-container{
         /* flex-direction: column-reverse; */
@@ -404,7 +404,7 @@ nav ul {
         height: 190px;
         width: 310px;
         font-size: 13px;
-        margin-left: 57px;
+        margin-left: 5px;
     }
     .Education-Experience{
         flex-wrap: wrap;
