@@ -5,6 +5,9 @@ body{
     color: white;
     overflow-x: hidden;
 }
+html {
+    scroll-behavior: smooth;
+}
 h1{
     background: -webkit-linear-gradient(#7b48e1, #f6f2fe);
     background: linear-gradient(to right, #7b48e1, #f6f2fe);
@@ -390,6 +393,7 @@ nav ul {
     .profile img{
         height: 380px;
         width: 310px;
+        margin-top: 10px;
     }
     .social_links{
         gap: 1rem;
