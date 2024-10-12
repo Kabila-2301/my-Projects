@@ -370,7 +370,7 @@ nav ul {
         font-size: 24px;
     }
     .left-container h1,h2,p{
-        padding: 10px;
+        padding: 3px;
     }
     .logo a{
         font-size: 15px;
@@ -378,7 +378,7 @@ nav ul {
     }
     .phone-items{
         top: 28px;
-        margin-left: 50%;
+        margin-left: 43%;
     }
     .hero-container{
         padding: 76px 19px;
@@ -402,23 +402,23 @@ nav ul {
     }
     .card{
         height: 190px;
-        width: 364px;
+        width: 310px;
         font-size: 13px;
         margin-left: 57px;
     }
     .Education-Experience{
         flex-wrap: wrap;
     }
-    .Exp h1{
+    .Exp, .Edu h1{
         margin-left: 55px;
     }
     .project-img-container img{
         height: 324px;
-        width: 314px;
+        width: 300px;
         margin-left: 20px;
     }
     .project-content{
-        width: 302px;
+        width: 289px;
         padding: initial;
         bottom: 16px;
         height: fit-content;
