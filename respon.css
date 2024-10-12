@@ -313,7 +313,7 @@ nav ul {
 }
 @media (max-width:1080px){
     body{
-        padding: 0px 15px;
+        padding: 0px 0px;
     }
     .navigation{
         background-color:#3a1e70 ;  
@@ -397,6 +397,7 @@ nav ul {
     .skill-card{
         width: 100px;
         padding-top: 29px;
+        height: 112px;
     }
     .card{
         height: 253px;
