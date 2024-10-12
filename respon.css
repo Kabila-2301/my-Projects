@@ -376,11 +376,11 @@ nav ul {
 
     }
     .phone-items{
-        top: 16px;
-        margin-left: 55%;
+        top: 28px;
+        margin-left: 50%;
     }
     .hero-container{
-        padding: 76px 32px;
+        padding: 76px 27px;
         flex-direction: column-reverse;
     }
     .profile img{
