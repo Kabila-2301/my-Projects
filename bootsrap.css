@@ -1,0 +1,51 @@
+body{
+  background-color: black;
+  color: white;
+}
+.custom-card-style{
+    width: 18rem;
+    box-shadow: 5px 5px 5px #7144ca
+}
+.navbar{
+  background-color:#3a1e70 ;
+}
+h1{
+  background: -webkit-linear-gradient(#7b48e1, #f6f2fe);
+  background: linear-gradient(to right, #7b48e1, #f6f2fe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.color> h2{
+  background: -webkit-linear-gradient(#7b48e1, #f6f2fe);
+  background: linear-gradient(to right, #7b48e1, #f6f2fe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.btn{
+  background-color: #7144ca;
+}
+.btn:hover{
+  background-color: #7144ca;
+}
+.custom-border {
+  border-color: #3a1e70 !important;
+}
+
+.card{
+  width: 15rem;
+  
+}
+.card>img{
+  height: 10rem;
+}
+.rounded-circle{
+  background-color: #7144ca
+}
+.line{
+  width: 2px;
+  background-color: #3a1e70;
+}
+section{
+  /* background-color: black;
+  color: white; */
+}
